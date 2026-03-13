@@ -43,20 +43,22 @@ This project demonstrates:
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
-cd demo_payment
+git clone https://github.com/ankurdeveloper0-coder/Payment_moduel.git
 
 2. Create vitual environment 
 
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 
-3. Install dependencies
+3. cd Payment_moduel
+
+
+4. Install dependencies
 
     pip install -r requirements.txt
 
 
-4.  Create a .env file 
+5.  Create a .env file 
 
 
 DB_USER=username
@@ -66,7 +68,7 @@ DB_PORT=5432
 DB_NAME=
 
 
-5.  Run the project 
+6.  Run the project 
 
 
 uvicorn main:app --reload
